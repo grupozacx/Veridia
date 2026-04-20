@@ -25,9 +25,12 @@
         <img src="images/logo-veridia.png" alt="Veridia Perícias Médicas" class="hero__logo"/>
       </div>
 
-      <p class="hero__tagline">Onde a verdade encontra expertise e acolhimento</p>
-      <h1>Perícia com precisão,<br><em>resultado com justiça.</em></h1>
-      <p class="hero__desc">Na Veridia, unimos ciência médica e justiça com ética, brilho e precisão técnica. Nosso compromisso é trazer humanidade com licitude — oferecendo perícias médicas que refletem credibilidade e expertise.</p>
+      <div class="hero__tagline">
+        <span class="hero__tagline-l1">Perícia médica com rigor, confiança e verdade</span>
+        <span class="hero__tagline-l2">Soluções rápidas para decisões seguras</span>
+      </div>
+      <h1>A verdade dos fatos com<br><em>respaldo médico e jurídico.</em></h1>
+      <p class="hero__desc">Na Veridia, unimos ciência médica e justiça com ética, brilho e precisão técnica. Nosso compromisso é trazer humanidade com licitude: oferecendo perícias médicas que refletem credibilidade e expertise.</p>
 
       <div class="hero__btns">
         <a href="https://wa.me/5561998882442" class="btn btn--gold-solid" target="_blank">
@@ -42,18 +45,22 @@
         <div class="hero__stat">
           <strong>+1.000</strong>
           <span>casos atendidos</span>
+          <em>Atuando como Assistente Técnica da União nos mais variados casos</em>
         </div>
         <div class="hero__stat">
           <strong>20 anos</strong>
           <span>de experiência</span>
-        </div>
-        <div class="hero__stat">
-          <strong>Todo Brasil</strong>
-          <span>atendimento nacional</span>
+          <em>Clínica Médica, Medicina do Trabalho e Perícias Médicas</em>
         </div>
         <div class="hero__stat">
           <strong>6 áreas</strong>
-          <span>tipos de processo</span>
+          <span>de atuação</span>
+          <em>Cível · Previdenciário · Acidentário · Administrativo · Criminal · Trabalhista</em>
+        </div>
+        <div class="hero__stat hero__stat--cta">
+          <strong>WhatsApp</strong>
+          <span>tire suas dúvidas</span>
+          <a href="https://wa.me/5561998882442" target="_blank" class="stat-wa">Falar agora →</a>
         </div>
       </div>
 
@@ -114,7 +121,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </div>
           <strong>Cobertura Nacional</strong>
-          <span>Atendemos em todo o Brasil — presencialmente ou por videoconferência</span>
+          <span>Atendemos em todo o Brasil: presencialmente ou por videoconferência</span>
         </div>
         <div class="about-pillar">
           <div class="about-pillar__ico">
@@ -133,7 +140,7 @@
       <div class="sec-hd">
         <span class="label">Processo</span>
         <h2>Como trabalhamos com você</h2>
-        <p>Do primeiro contato ao resultado final — suporte técnico completo em cada etapa</p>
+        <p>Do primeiro contato ao resultado final: suporte técnico completo em cada etapa</p>
       </div>
       <div class="process-grid">
         <div class="process-step">
@@ -154,7 +161,7 @@
         <div class="process-step">
           <span class="process-step__num">04</span>
           <h3>Suporte até o Resultado</h3>
-          <p>Permanecemos ao lado do advogado e da parte — esclarecendo dúvidas, reforçando argumentos até o julgamento final.</p>
+          <p>Permanecemos ao lado do advogado e da parte: esclarecendo dúvidas, reforçando argumentos até o julgamento final.</p>
         </div>
       </div>
     </div>
@@ -168,68 +175,79 @@
         <h2>Soluções Técnicas para Cada Processo</h2>
         <p>Atendemos urgências processuais · Assistência técnica particular e consultorias</p>
       </div>
-      <div class="srv-grid">
+      <!-- tabs de serviços -->
+      <div class="srv-tabs">
+        <nav class="srv-tabs__nav">
+          <button class="srv-tab srv-tab--active" data-tab="0">Parecer Técnico</button>
+          <button class="srv-tab" data-tab="1">Laudo Médico Pericial</button>
+          <button class="srv-tab" data-tab="2">Impugnação de Laudo</button>
+          <button class="srv-tab" data-tab="3">Assistência Técnica Judicial</button>
+          <button class="srv-tab" data-tab="4">Consultoria Estratégica</button>
+          <button class="srv-tab" data-tab="5">Avaliação de Viabilidade</button>
+        </nav>
+        <div class="srv-tabs__body">
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <div class="srv-pane srv-pane--active" data-pane="0">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Parecer Técnico</h3>
+              <p>Análise detalhada norteada pela medicina baseada em evidências, com linguagem clara e argumentativa: produzido para ser compreendido tanto pelo juízo quanto pelas partes. Indicado para processos que exigem manifestação técnica especializada sobre laudos ou quesitos periciais.</p>
+            </div>
           </div>
-          <h3>Parecer Técnico</h3>
-          <p>Análise detalhada norteada pela medicina baseada em evidências, com linguagem clara e argumentativa — produzido para ser compreendido tanto pelo juízo quanto pelas partes.</p>
-        </div>
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          <div class="srv-pane" data-pane="1">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Laudo Médico Pericial</h3>
+              <p>Laudos técnicos imparciais que esclarecem fatos médicos ao jurídico requisitante, com fundamentação científica sólida e linguagem acessível ao universo do direito. Cobrimos processos cíveis, previdenciários, acidentários e administrativos em todo o Brasil.</p>
+            </div>
           </div>
-          <h3>Laudo Médico Pericial</h3>
-          <p>Laudos técnicos imparciais que esclarecem fatos médicos ao jurídico requisitante, com fundamentação científica sólida e linguagem acessível ao universo do direito.</p>
-        </div>
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+          <div class="srv-pane" data-pane="2">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Impugnação de Laudo</h3>
+              <p>Leitura criteriosa do processo com contestação baseada naquilo que consta nos autos e na literatura médica nacional e internacional e identificando falhas técnicas com precisão. Uma impugnação bem fundamentada pode reverter ou mitigar decisões desfavoráveis.</p>
+            </div>
           </div>
-          <h3>Impugnação de Laudo</h3>
-          <p>Leitura criteriosa do processo com contestação baseada naquilo que consta nos autos e na literatura médica nacional e internacional — identificando falhas técnicas com precisão.</p>
-        </div>
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <div class="srv-pane" data-pane="3">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Assistência Técnica Judicial</h3>
+              <p>Acompanhamento técnico médico ao lado do advogado em todas as fases do processo: elaboração de quesitos, análise de laudos e presença no exame pericial. A assistente técnica atua como parceira estratégica para garantir que a versão médica da parte seja apresentada com rigor científico.</p>
+            </div>
           </div>
-          <h3>Assistência Técnica Judicial</h3>
-          <p>Acompanhamento técnico médico ao lado do advogado em todas as fases do processo — elaboração de quesitos, análise de laudos e presença no exame pericial.</p>
-        </div>
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <div class="srv-pane" data-pane="4">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Consultoria Estratégica</h3>
+              <p>Apoio estratégico na construção da inicial e ao longo do processo jurídico, com acompanhamento online ou presencial. Identificamos pontos técnicos relevantes, formulamos quesitos e garantimos coerência entre a base médica e a tese jurídica, do início ao julgamento.</p>
+            </div>
           </div>
-          <h3>Consultoria Estratégica</h3>
-          <p>Apoio estratégico na construção da inicial e ao longo do processo jurídico, com acompanhamento online ou presencial — garantindo coerência entre base médica e tese jurídica.</p>
-        </div>
 
-        <div class="srv-card">
-          <div class="srv-card__ico">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <div class="srv-pane" data-pane="5">
+            <div class="srv-pane__ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div class="srv-pane__text">
+              <h3>Avaliação de Viabilidade</h3>
+              <p>Análise prévia da consistência clínica antes do ajuizamento ou contestação: identificando riscos, pontos fortes e fragilidades. Uma avaliação criteriosa antes de ingressar com a ação pode poupar tempo, recursos e fortalecer substancialmente a estratégia processual.</p>
+            </div>
           </div>
-          <h3>Avaliação de Viabilidade</h3>
-          <p>Análise prévia da consistência clínica antes do ajuizamento ou contestação — identificando riscos, pontos fortes e fragilidades para decisões processuais mais seguras.</p>
+
         </div>
-
-      </div>
-
-      <!-- chips de atuação -->
-      <div class="chips">
-        <span class="chip">INSS</span>
-        <span class="chip">Erro Médico</span>
-        <span class="chip">Concursos Públicos</span>
-        <span class="chip">Pensão por Morte</span>
-        <span class="chip">Danos Morais &amp; Estéticos</span>
-        <span class="chip">Medicamentos de Alto Custo</span>
-        <span class="chip">Doenças Raras e Oncológicas</span>
-        <span class="chip">Processos Acidentários</span>
       </div>
     </div>
   </section>
@@ -249,10 +267,10 @@
       </div>
       <div class="team-text">
         <span class="label">Equipe</span>
-        <h2>Dra. Tina</h2>
+        <h2>Dra. Tina Louise Ferraroni</h2>
         <div class="team-quote">
-          <p>"Cada processo carrega uma história real. Meu compromisso é que essa história seja contada com precisão científica e com a humanidade que cada caso merece."</p>
-          <span>— Dra. Tina</span>
+          <p>"Cada processo tem sua particularidade que tem que ser atendida com justiça e humanidade. Na Veridia cada cliente é tratado com o respeito devido, gerando clareza e resultado naquilo que busca."</p>
+          <span>Dra. Tina Louise Ferraroni</span>
         </div>
         <p class="team-crm">Médica do Trabalho · Especialista em Perícias Médicas</p>
         <p>Atuando há <strong>20 anos</strong>, com experiência consolidada como <strong>Assistente Técnica da União</strong> em mais de <strong>1.000 casos</strong> de alta complexidade.</p>
@@ -321,7 +339,7 @@
         </details>
         <details class="faq">
           <summary>Vocês atendem urgências processuais?</summary>
-          <p>Sim. A Veridia atende urgências processuais com prazos judiciais em vista — entre em contato imediatamente pelo WhatsApp para avaliarmos seu caso.</p>
+          <p>Sim. A Veridia atende urgências processuais com prazos judiciais em vista: entre em contato imediatamente pelo WhatsApp para avaliarmos seu caso.</p>
         </details>
         <details class="faq">
           <summary>Quais tipos de processo a Veridia atende?</summary>
@@ -329,7 +347,7 @@
         </details>
         <details class="faq">
           <summary>Como funciona a consultoria para advogados?</summary>
-          <p>Oferecemos apoio estratégico desde a construção da inicial, com análise da documentação clínica, identificação dos pontos técnicos relevantes, formulação de quesitos e acompanhamento ao longo de todo o processo — online ou presencialmente.</p>
+          <p>Oferecemos apoio estratégico desde a construção da inicial, com análise da documentação clínica, identificação dos pontos técnicos relevantes, formulação de quesitos e acompanhamento ao longo de todo o processo, online ou presencialmente.</p>
         </details>
       </div>
     </div>
@@ -340,8 +358,8 @@
     <div class="wrap wrap--narrow center">
       <img src="images/logo-veridia.png" alt="Veridia" class="cta-logo"/>
       <span class="cta-quote-mark">"</span>
-      <h2>Seu processo merece uma base técnica sólida para avançar com confiança.</h2>
-      <p>Cada caso traz consigo sua própria complexidade.<br>Uma análise pericial criteriosa é o que ilumina o caminho, oferecendo clareza e segurança para decisões justas e bem fundamentadas.</p>
+      <h2>Cada processo exige alicerces técnicos sólidos para avançar com segurança.</h2>
+      <p>A singularidade de cada caso demanda rigor analítico.<br>Uma perícia criteriosa dissipa incertezas, oferecendo clareza e sustentação científica para decisões justas e juridicamente bem fundamentadas.</p>
       <div class="cta-btns">
         <a href="https://wa.me/5561998882442" class="btn btn--gold-solid" target="_blank">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>

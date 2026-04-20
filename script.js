@@ -1,11 +1,10 @@
-// Scroll reveal animation
 document.addEventListener('DOMContentLoaded', () => {
+
+  // ── Scroll reveal ──
   const revealEls = document.querySelectorAll(
-    '.card, .audience-card, .method-card, .section-header, .hero__content, .hero__expert, .lead, .btn--lg'
+    '.srv-tab, .testi, .faq, .about-pillar, .process-step, .contact-item'
   );
-
   revealEls.forEach(el => el.classList.add('reveal'));
-
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry, i) => {
@@ -17,6 +16,18 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { threshold: 0.12 }
   );
-
   revealEls.forEach(el => observer.observe(el));
+
+  // ── Service tabs ──
+  const tabs  = document.querySelectorAll('.srv-tab');
+  const panes = document.querySelectorAll('.srv-pane');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t  => t.classList.remove('srv-tab--active'));
+      panes.forEach(p => p.classList.remove('srv-pane--active'));
+      tab.classList.add('srv-tab--active');
+      panes[+tab.dataset.tab].classList.add('srv-pane--active');
+    });
+  });
+
 });
